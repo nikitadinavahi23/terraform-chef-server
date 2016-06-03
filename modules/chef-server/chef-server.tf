@@ -32,7 +32,7 @@ resource "aws_security_group" "chef-server" {
         cidr_blocks = ["${var.ssh_cidr_block}","${var.vpc_cidr_block}"]
     }    
 
-    // allow traffic from dev-voyce-device-vpc
+    // allow traffic from entire VPC
     ingress {
         from_port = 9683
         to_port = 9683 
