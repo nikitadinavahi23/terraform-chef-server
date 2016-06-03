@@ -1,0 +1,18 @@
+# Example: ignoring input files to a Terraform run
+*.tfvars
+*.tfvars.json
+  
+# Example: ignoring log files
+*.log
+
+# Compiled files
+*.tfstate
+*.tfstate.backup
+
+# Module temp files
+.terraform/
+
+# Temp Test files
+test/properties.yml
+Gemfile.lock 
+voyce-device-mgmt-chef-keypair.pem
